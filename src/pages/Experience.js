@@ -4,9 +4,9 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@material-ui/icons/School";
+import SchoolIcon from "@mui/icons-material/School";
 //import WorkIcon from "@material-ui/icons/Work";
-import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
+import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
 
 function Experience() {
   return (
