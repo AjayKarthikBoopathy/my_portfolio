@@ -12,13 +12,13 @@ function Home() {
         <h2>Hello, I'm Ajay Karthik</h2>
         <div className="prompt">
           <p>A MERN Stack developer with a passion for learning and creating.</p>
-          <Link href="https://www.linkedin.com/in/ajay-karthik-b-70a757205/" target="_blank">
+          <Link href="https://www.linkedin.com/in/ajay-karthik-b-70a757205/" target="_blank" rel="noreferrer">
           <LinkedInIcon />
           </Link>
           <Link>
           <EmailIcon />
           </Link>
-          <Link href="https://github.com/AjayKarthikBoopathy?tab=repositories" target="_blank">
+          <Link href="https://github.com/AjayKarthikBoopathy?tab=repositories" target="_blank" rel="noreferrer">
           <GithubIcon />
           </Link>
         </div>
