@@ -15,25 +15,31 @@ export const ProjectList = [
     name: "Youtube Website",
     image: Proj1,
     skills: "React,Node.js,MongoDB",
-    link: "https://youtube-application123.netlify.app"
+    live: "https://youtube-application123.netlify.app",
+    front: "https://github.com/AjayKarthikBoopathy/youtube-client-master",
+    back: "https://github.com/AjayKarthikBoopathy/youtube-backend"
   },
   {
     name: "CRUD with Redux-Toolkit",
     image: Proj2,
     skills: "React,Redux",
-    link: "https://calm-parfait-bee312.netlify.app/"
+    live: "https://calm-parfait-bee312.netlify.app/",
+    front: "https://github.com/AjayKarthikBoopathy/react-redux-crud"   
   },
   {
     name: "CRUD with MUI",
     image: Proj3,
     skills: "React,Router-DOM",
-    link: "https://clever-nasturtium-af6945.netlify.app/"
+    live: "https://clever-nasturtium-af6945.netlify.app/",
+    front: "https://github.com/AjayKarthikBoopathy/mui-crud"   
   },
   {
     name: "Webscraping Website",
     image: Proj4,
     skills: "React,Node.js,MongoDB",
-    link: "https://webscrape-site123.netlify.app/"
+    live: "https://webscrape-site123.netlify.app/",
+    front: "https://github.com/AjayKarthikBoopathy/day26-crud-user",
+    back: "	https://github.com/AjayKarthikBoopathy/connect"
   }
   // {
   //   name: "Spotify Clone",

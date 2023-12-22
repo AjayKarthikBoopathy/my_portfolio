@@ -67,7 +67,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Guvi ed-tech company
           </h4>
-          <p>Certificate ID - 68ax7X1225348IDB05</p>
+          <p>Certificate ID - #63Xyu41b710127n63N</p>
         </VerticalTimelineElement>
 
         {/* <VerticalTimelineElement

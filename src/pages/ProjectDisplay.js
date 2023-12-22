@@ -16,7 +16,9 @@ function ProjectDisplay() {
       </p>
       {/* <GitHubIcon /> */}
 
-      <a href={project.link} target="_blank">{project.name} Link</a>
+      <a href={project.live} target="_blank" className="projectlink">{project.name} Live</a>
+      <a href={project.front} target="_blank" className="projectlink">Frontend Code</a>
+      <a href={project.back} target="_blank" className="projectlink">Backend Code</a>
 
     </div>
   );
