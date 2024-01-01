@@ -18,9 +18,9 @@ function ProjectDisplay() {
 
       <a href={project.live} target="_blank" className="projectlink">{project.name} Live</a>
       <a href={project.front} target="_blank" className="projectlink">Frontend Code</a>
-
+      {project.back && (
       <a href={project.back} target="_blank" className="projectlink">Backend Code</a>
-
+      )}
 
     </div>
   );
