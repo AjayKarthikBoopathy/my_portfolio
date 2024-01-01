@@ -15,11 +15,13 @@ function Home() {
           <Link href="https://www.linkedin.com/in/ajay-karthik-b-70a757205/" target="_blank" rel="noreferrer">
           <LinkedInIcon />
           </Link>
-          <Link>
-          <EmailIcon />
-          </Link>
+          
           <Link href="https://github.com/AjayKarthikBoopathy?tab=repositories" target="_blank" rel="noreferrer">
           <GithubIcon />
+          </Link>
+
+          <Link>
+          <EmailIcon />
           </Link>
         </div>
       </div>

@@ -20,26 +20,42 @@ export const ProjectList = [
     back: "https://github.com/AjayKarthikBoopathy/youtube-backend"
   },
   {
-    name: "CRUD with Redux-Toolkit",
+    name: "Webscraping Website",
     image: Proj2,
+    skills: "React,Node.js,MongoDB",
+    live: "https://webscrape-site123.netlify.app/",
+    front: "https://github.com/AjayKarthikBoopathy/day26-crud-user",
+    back: "https://github.com/AjayKarthikBoopathy/connect"
+  },
+  {
+    name: "Form Submission",
+    image: Proj3,
+    skills: "React,Redux,Node.js,MongoDB",
+    live: "https://form-website123.netlify.app/",
+    front: "https://github.com/AjayKarthikBoopathy/form-frontend",
+    back: "https://github.com/AjayKarthikBoopathy/form-backend"   
+  },
+  {
+    name: "University Portal",
+    image: Proj4,
+    skills: "React,Router-DOM,Node.js,MongoDB",
+    live: "https://student-mentor-portal123.netlify.app/",
+    front: "https://github.com/AjayKarthikBoopathy/stud-ment-frontend",
+    back: "https://github.com/AjayKarthikBoopathy/stud-ment-backend"   
+  },
+  {
+    name: "CRUD with Redux-Toolkit",
+    image: Proj5,
     skills: "React,Redux",
     live: "https://calm-parfait-bee312.netlify.app/",
     front: "https://github.com/AjayKarthikBoopathy/react-redux-crud"   
   },
   {
     name: "CRUD with MUI",
-    image: Proj3,
+    image: Proj6,
     skills: "React,Router-DOM",
     live: "https://clever-nasturtium-af6945.netlify.app/",
     front: "https://github.com/AjayKarthikBoopathy/mui-crud"   
-  },
-  {
-    name: "Webscraping Website",
-    image: Proj4,
-    skills: "React,Node.js,MongoDB",
-    live: "https://webscrape-site123.netlify.app/",
-    front: "https://github.com/AjayKarthikBoopathy/day26-crud-user",
-    back: "	https://github.com/AjayKarthikBoopathy/connect"
   }
   // {
   //   name: "Spotify Clone",
