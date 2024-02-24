@@ -54,6 +54,16 @@
   text-align: center;
 }
 
+.certificate {
+  margin-top: 6px;
+}
+
+.certificatelink {
+  text-decoration: none;
+  color: #3e497a;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 900px) {
   .navbar a {
     width: 70px;

@@ -6,6 +6,11 @@
   align-items: center;
   flex-direction: column;
 }
+
+.projList-heading {
+  margin-top: 40px;
+}
+
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;

@@ -1,26 +1,28 @@
 .project {
   width: 100%;
-  height: calc(100vh - 100px);
+  /* height: calc(100vh - 10px); */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.project h1 {
-  margin-top: 100px;
+.heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
   color: #3e497a;
   font-size: 35px;
   padding-top: 36px;
 }
-.project img {
+.img {
   width: 700px;
   border-radius: 10px;
 }
 
-.project p {
+.skills {
   font-size: 40px;
   color: #3e497a;
+  margin: 0px 0px;
 }
 
 .project svg {
@@ -28,10 +30,34 @@
   color: #3e497a;
 }
 
+.login {
+  margin: 10px 190px;
+}
+
 .projectlink {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  color: rgb(0, 130, 153);
+  margin-top: 4px;
+  /* margin-bottom: 2px; */
+  /* color: rgb(0, 130, 153); */
+  color: #3e497a;
   font-size: medium;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.projectDetails {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.keys {
+  color: #3e497a;
+  font-weight: 500;
+}
+
+.childId {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
 }

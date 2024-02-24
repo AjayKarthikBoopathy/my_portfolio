@@ -57,6 +57,38 @@
   font-size: 20px;
 }
 
+.resume {
+  margin-top: 30px;
+}
+
+.resumelink {
+  color: white;
+  text-decoration: none;
+  
+  font-size: medium;
+  font-weight: 400;
+  padding: 12px;
+  border: 1px solid #3e497a;
+  border-radius: 5px;
+  background-color: #3e497a;
+
+}
+
+.resumeIcon {
+  margin-top: 30px;
+}
+
+.resumeIconlink {
+  color: #21325e;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 600;
+  padding: 12px;
+  border: 1px solid rgb(255, 253, 231);
+  border-radius: 5px;
+  background-color: rgb(255, 253, 231);
+}
+
 @media only screen and (max-width: 600px) {
   .about h2 {
     font-size: 40px;

@@ -11,24 +11,35 @@ import Link from "@mui/material/Link";
 function Footer() {
   return (
     <div className="footer">
-      <div className="socialMedia">
-        
-          <Link href="https://www.linkedin.com/in/ajay-karthik-b-70a757205/" target="_blank" rel="noreferrer">
-          <LinkedInIcon />
-          </Link>
+
+          <div>
+            <div className="topIcon">
+              <a href="#top" className="toplink">TOP&#11165;</a>
+            </div>
+          </div>
+
+      <div className="footerStyles">
           
-          <Link href="https://github.com/AjayKarthikBoopathy?tab=repositories" target="_blank" rel="noreferrer">
-          <GithubIcon />
-          </Link>
+        <div className="socialMedia">
+          
+            <Link href="https://www.linkedin.com/in/ajay-karthik-b-70a757205/" target="_blank" rel="noreferrer">
+            <LinkedInIcon />
+            </Link>
+            
+            <Link href="https://github.com/AjayKarthikBoopathy?tab=repositories" target="_blank" rel="noreferrer">
+            <GithubIcon />
+            </Link>
 
-          <Link>
-          <EmailIcon />
-          </Link>
+            {/* <Link>
+            <EmailIcon />
+            </Link> */}
 
-        {/* <InstagramIcon /> */}
-        {/* <TwitterIcon /> */}
-        {/* <FacebookIcon /> */}
-        {/* <LinkedInIcon /> */}
+          {/* <InstagramIcon /> */}
+          {/* <TwitterIcon /> */}
+          {/* <FacebookIcon /> */}
+          {/* <LinkedInIcon /> */}
+        </div>
+
       </div>
       {/* <p> &copy; 2022 pedrotech.com</p> */}
     </div>

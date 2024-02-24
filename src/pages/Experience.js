@@ -52,7 +52,14 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Guvi ed-tech company
           </h4>
-          <p>Certificate ID - 68ax7X1225348IDB05</p>
+          {/* <p>Certificate ID - 68ax7X1225348IDB05</p> */}
+
+            <div className="certificate">
+              <a href="https://drive.google.com/file/d/1Z989mOutVIAElv67YZSL9KjPjhiHtxI8/view?usp=drive_link" 
+              target="_blank" className="certificatelink">Certificate link &#x2B62;
+              </a>
+            </div>
+
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -67,7 +74,14 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Guvi ed-tech company
           </h4>
-          <p>Certificate ID - #63Xyu41b710127n63N</p>
+          {/* <p>Certificate ID - #63Xyu41b710127n63N</p> */}
+
+            <div className="certificate">
+              <a href="https://drive.google.com/file/d/1KBHagt16kEaItyHMsDq1pgfRxsb-FGA9/view?usp=drive_link" 
+              target="_blank" className="certificatelink">Certificate link &#x2B62;
+              </a>
+            </div>
+
         </VerticalTimelineElement>
 
         {/* <VerticalTimelineElement
