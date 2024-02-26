@@ -41,7 +41,7 @@ function Footer() {
         </div>
 
       </div>
-      {/* <p> &copy; 2022 pedrotech.com</p> */}
+      {/* <p> &copy; 2024 ajay15tech.com</p> */}
     </div>
   );
 }

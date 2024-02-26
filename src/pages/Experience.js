@@ -86,15 +86,15 @@ function Experience() {
 
         {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2020 - present"
+          date="2024 - present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
+            Full Stack Engineer - TCS
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Chennai, Tamil Nadu
           </h4>
           <p>
             Helped the team launch 2 major features by working both in the front

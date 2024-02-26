@@ -71,6 +71,6 @@ export const ProjectList = [
   // {
   //   name: "Mobile Game",
   //   image: Proj6,
-  //   skills: "React Native,JavaScript,HTML,CSS",
+  //   skills: "React,JavaScript,HTML,CSS",
   // },
 ];
