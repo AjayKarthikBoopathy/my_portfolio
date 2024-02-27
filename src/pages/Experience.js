@@ -7,6 +7,10 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
 //import WorkIcon from "@material-ui/icons/Work";
 import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import "../styles/Home.css";
+import Link from '@mui/material/Link';
+
 
 function Experience() {
   return (
@@ -55,9 +59,14 @@ function Experience() {
           {/* <p>Certificate ID - 68ax7X1225348IDB05</p> */}
 
             <div className="certificate">
-              <a href="https://drive.google.com/file/d/1Z989mOutVIAElv67YZSL9KjPjhiHtxI8/view?usp=drive_link" 
+              {/* <a href="https://drive.google.com/file/d/1Z989mOutVIAElv67YZSL9KjPjhiHtxI8/view?usp=drive_link" 
               target="_blank" className="certificatelink">Certificate link &#x2B62;
-              </a>
+              </a> */}
+
+              <Link href="https://drive.google.com/file/d/1Z989mOutVIAElv67YZSL9KjPjhiHtxI8/view?usp=drive_link" 
+                target="_blank" rel="noreferrer" class="certificatelink" color={"inherit"} 
+                text-decoration={"inherit"}>View Certificate <ArrowRightAltIcon  className="arrow3" />
+              </Link>
             </div>
 
         </VerticalTimelineElement>
@@ -77,9 +86,14 @@ function Experience() {
           {/* <p>Certificate ID - #63Xyu41b710127n63N</p> */}
 
             <div className="certificate">
-              <a href="https://drive.google.com/file/d/1KBHagt16kEaItyHMsDq1pgfRxsb-FGA9/view?usp=drive_link" 
+              {/* <a href="https://drive.google.com/file/d/1KBHagt16kEaItyHMsDq1pgfRxsb-FGA9/view?usp=drive_link" 
               target="_blank" className="certificatelink">Certificate link &#x2B62;
-              </a>
+              </a> */}
+
+              <Link href="https://drive.google.com/file/d/1KBHagt16kEaItyHMsDq1pgfRxsb-FGA9/view?usp=drive_link" 
+                target="_blank" rel="noreferrer" class="certificatelink" color={"inherit"} 
+                text-decoration={"inherit"}>View Certificate <ArrowRightAltIcon  className="arrow3" />
+              </Link>
             </div>
 
         </VerticalTimelineElement>

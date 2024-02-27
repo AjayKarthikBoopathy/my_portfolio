@@ -34,6 +34,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .footer {
+    height: 135px;
+  }
+  
   .footer svg {
     font-size: 50px;
   }

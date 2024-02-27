@@ -6,11 +6,7 @@ import Proj5 from "../assets/proj5.png";
 import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
-  // {
-  //   name: "Dijkstra Algorithm Visualizer",
-  //   image: Proj1,
-  //   skills: "JavaScript,HTML,CSS",
-  // },
+  
   {
     name: "Youtube Website",
     image: Proj1,
@@ -58,10 +54,17 @@ export const ProjectList = [
     front: "https://github.com/AjayKarthikBoopathy/mui-crud"   
   }
   // {
+  //   name: "Dijkstra Algorithm Visualizer",
+  //   image: Proj1,
+  //   skills: "JavaScript,HTML,CSS",
+  // },
+
+  // {
   //   name: "Spotify Clone",
   //   image: Proj3,
   //   skills: "React,Node.js,MongoDB,SpotifyAPI",
   // },
+  
   // {
   //   name: "Social Media Website",
   //   image: Proj4,

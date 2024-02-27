@@ -3,6 +3,9 @@ import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GithubIcon from "@mui/icons-material/GitHub";
 import "../styles/ProjectDisplay.css";
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import "../styles/Home.css";
+import Link from '@mui/material/Link';
 
 function ProjectDisplay() {
   const { id } = useParams();
@@ -36,10 +39,24 @@ function ProjectDisplay() {
       </div>
 
       <div className="projectDetails">
-        <a href={project.live} target="_blank" className="projectlink">{project.name} Live &#x2B62;</a>
-        <a href={project.front} target="_blank" className="projectlink">Frontend Code &#x2B62;</a>
+        {/* <a href={project.live} target="_blank" className="projectlink">{project.name} Live &#x2B62;</a> */}
+          <Link href={project.live}
+            target="_blank" rel="noreferrer" class="projectlink" color={"inherit"} 
+            text-decoration={"inherit"}>{project.name} Live <ArrowRightAltIcon  className="arrow3" />
+          </Link>
+
+        {/* <a href={project.front} target="_blank" className="projectlink">Frontend Code &#x2B62;</a> */}
+          <Link href={project.front}
+            target="_blank" rel="noreferrer" class="projectlink" color={"inherit"} 
+            text-decoration={"inherit"}>Frontend Code <ArrowRightAltIcon  className="arrow3" />
+          </Link>
         {project.back && (
-        <a href={project.back} target="_blank" className="projectlink">Backend Code &#x2B62;</a>
+        // <a href={project.back} target="_blank" className="projectlink">Backend Code &#x2B62;</a>
+
+          <Link href={project.back}
+            target="_blank" rel="noreferrer" class="projectlink" color={"inherit"} 
+            text-decoration={"inherit"}>Backend Code <ArrowRightAltIcon  className="arrow3" />
+          </Link>
         )}
       </div>
 
