@@ -110,6 +110,19 @@
   background-color: rgb(255, 253, 231);
 }
 
+.parentt2 {
+  font-size: 48px;
+  color: hsl(55, 83%, 46%) !important;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 2px !important;
+  text-transform: uppercase;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 @media screen and (min-device-width: 600px) and (max-device-width: 800px) { 
   .summary {
     margin: 28px 0px;
@@ -241,7 +254,8 @@
 
 /* no 3 style stretch effect*/
 .parentt2:hover {
-  background: linear-gradient(105deg, hsl(55, 83%, 46%) 0, hsl(0, 0%, 100%) 7%, hsl(55, 83%, 46%) 15%);
+  background: linear-gradient(105deg, hsl(55, 83%, 46%) 0, hsl(55, 83%, 46%) 7%, hsl(55, 83%, 46%) 15%);
+  /* background: linear-gradient(105deg, hsl(55, 83%, 46%) 0, hsl(0, 0%, 100%) 7%, hsl(55, 83%, 46%) 15%); */
   /* background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -16,6 +16,14 @@ export const ProjectList = [
     back: "https://github.com/AjayKarthikBoopathy/youtube-backend"
   },
   {
+    name: "Task Management",
+    image: Proj6,
+    skills: "React,Node.js,MongoDB",
+    live: "https://task-manager-application123.netlify.app/",
+    front: "https://github.com/AjayKarthikBoopathy/todo-main-frontend",
+    back: "https://github.com/AjayKarthikBoopathy/todo-main-backend"   
+  },
+  {
     name: "Webscraping Website",
     image: Proj2,
     skills: "React,Node.js,MongoDB",
@@ -45,14 +53,17 @@ export const ProjectList = [
     skills: "React,Redux",
     live: "https://calm-parfait-bee312.netlify.app/",
     front: "https://github.com/AjayKarthikBoopathy/react-redux-crud"   
-  },
-  {
-    name: "CRUD with MUI",
-    image: Proj6,
-    skills: "React,Router-DOM",
-    live: "https://clever-nasturtium-af6945.netlify.app/",
-    front: "https://github.com/AjayKarthikBoopathy/mui-crud"   
   }
+  
+
+
+  // {
+  //   name: "CRUD with MUI",
+  //   image: Proj6,
+  //   skills: "React,Router-DOM",
+  //   live: "https://clever-nasturtium-af6945.netlify.app/",
+  //   front: "https://github.com/AjayKarthikBoopathy/mui-crud"   
+  // }
   // {
   //   name: "Dijkstra Algorithm Visualizer",
   //   image: Proj1,

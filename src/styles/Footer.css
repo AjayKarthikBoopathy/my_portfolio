@@ -20,6 +20,7 @@
   font-size: smaller;
   border: 0.4px solid rgb(32, 32, 32);
   padding: 1px;
+  padding-left: 3px;
 }
 
 .socialMedia svg {
@@ -27,6 +28,14 @@
   margin: 20px;
   font-size: 60px;
   cursor: pointer;
+}
+
+.arrow-up {
+  /* color: yellow; */
+  font-size: smaller !important;
+  width: 20px !important;
+  height: 13px !important;
+  padding: 0;
 }
 
 .footer p {

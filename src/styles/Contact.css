@@ -1,0 +1,134 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form > form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem;
+    position: relative;
+  }
+  
+  form > input {
+    padding: 2%;
+    width: 40vw;
+    min-width: 220px;
+    min-height: 30px;
+    border-radius: 5px;
+    border: none;
+    /* background-color: rgb(119, 119, 146); */
+    /* background-color: #21325e; */
+    background-color: #828ca0;
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  textarea {
+    width: 40vw;
+    min-width: 220px;
+    min-height: 100px;
+    padding: 2%;
+    height: 10vh;
+    border-radius: 5px;
+    border: none;
+    /* background-color: rgb(119, 119, 146); */
+    /* background-color: #21325e; */
+    /* background-color: #4f5d81; */
+    background-color: #828ca0;
+    color: white;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .submit {
+    width: 68px;
+    /* min-width: 8vw; */
+    padding: 8px 0px;
+    text-align: center;
+    margin-top: 4px;
+    /* border: 2px solid yellow;
+    background-color: inherit; */
+    /* color: yellow; */
+    background-color: #21325e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+  }
+
+  .submit-btn {
+    background-color: inherit;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    padding-left: 9px;
+  }
+
+    /* border: 2px solid yellow;
+    background-color: inherit; */
+    /* color: yellow; */
+    /* min-width: 8vw; */
+
+   /* background-color: #21325e;
+    color: white;
+    width: 68px;
+    padding: 8px 0px;
+    text-align: center;
+    margin-top: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  } */
+
+  .send {
+    /* color: yellow; */
+    font-size: medium !important;
+  }
+
+  /* .submit-btn:hover {
+    background-color: yellow;
+    border: none;
+    color: black;
+  } */
+
+  label {
+    text-align: left;
+    font-size: medium;
+    font-weight: 500;
+    /* color: white; */
+    color: #21325e;
+  }
+  .contact-page > h1 {
+    color: black;
+    /* color: #21325e; */
+  }
+  .conatct-page > h1:hover {
+    color: white;
+  }
+  .footer-contact{
+    color:white;
+  
+  }
+  /* @media only screen and (max-width: 475px) {
+    .contact-page > h1 {
+      font-size: 36px;
+    }
+    .submit-btn {
+      width: 12vw;
+    }
+    form > input,
+    textarea {
+      width: 50vw;
+    }
+  } */
+
+     /* and (min-width: 325px) */

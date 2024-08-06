@@ -25,16 +25,20 @@ function ProjectDisplay() {
       <div>
       <div className="login-credentials">
         <h4 className="login">Common Login Credentials</h4>
-          <div className="childId">
+          {/* <div className="childId"> */}
+
             <div>
+            <div className="mailpass">
             <p><span className="keys">Email:-</span>ajay@gmail.com</p>
             <p><span className="keys">Password:-</span>Password@123</p>
             </div>
-            <div>
+            </div>
+            {/* <div>
             <p><span className="keys">Admin Email:-</span>ajayadmin@gmail.com</p>
             <p><span className="keys">Admin Password:-</span>Passwordadmin@123</p>
-            </div>
-          </div>
+            </div> */}
+
+          {/* </div> */}
       </div>
       </div>
 

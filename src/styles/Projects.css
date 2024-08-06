@@ -5,6 +5,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .projList-heading {
@@ -19,11 +22,18 @@
 }
 
 .projectList {
-  width: 70vw;
+  /* width: 70vw;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
+  place-items: center; */
+
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center;
+  align-content: center; */
+  /* place-items: center; */
+  place-content: center;
 }
 
 /* MENU ITEM STYLING */

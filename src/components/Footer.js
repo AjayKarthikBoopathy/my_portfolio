@@ -7,6 +7,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
 import "../styles/Footer.css";
 import Link from "@mui/material/Link";
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 function Footer() {
   return (
@@ -14,7 +15,8 @@ function Footer() {
 
           <div>
             <div className="topIcon">
-              <a href="#top" className="toplink">TOP&#11165;</a>
+              {/* <a href="#top" className="toplink">TOP&#11165;</a> */}
+              <a href="#top" className="toplink">TOP<KeyboardArrowUpIcon className="arrow-up"/></a>
             </div>
           </div>
 
@@ -42,6 +44,10 @@ function Footer() {
 
       </div>
       {/* <p> &copy; 2024 ajay15tech.com</p> */}
+
+      {/* <div className="footer-contact">
+        <p>&#169; Ajay. All rights reserved</p>
+      </div> */}
     </div>
   );
 }
