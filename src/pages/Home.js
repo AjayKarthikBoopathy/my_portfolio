@@ -31,7 +31,7 @@ function Home() {
             target="_blank" className="resumeIconlink">Resume &#x2B62;<span><ArrowRightAltIcon className="arrow1"/></span>
             </a> */}
 
-            <Link href="https://drive.google.com/drive/folders/111msFziqadDbBdI7AtAPmuLSzNSNG8XD/view?usp=drive_link" 
+            <Link href="https://drive.google.com/file/d/1aY8oNEnb64XCEhozRvg6KGUyvUABKN03/view" 
             target="_blank" rel="noreferrer" class="resumeIconlink" color={"inherit"} 
             text-decoration={"inherit"}>Resume <ArrowRightAltIcon  className="arrow1" />
             </Link>
@@ -79,7 +79,7 @@ function Home() {
           target="_blank" className="resumelink">Resume &#x2B62;
           </a> */}
 
-          <Link href="https://drive.google.com/drive/folders/111msFziqadDbBdI7AtAPmuLSzNSNG8XD/view?usp=drive_link" 
+          <Link href="https://drive.google.com/file/d/1aY8oNEnb64XCEhozRvg6KGUyvUABKN03/view" 
             target="_blank" rel="noreferrer" class="resumelink" color={"inherit"} 
             text-decoration={"inherit"}>Resume <ArrowRightAltIcon  className="arrow2" />
           </Link>
