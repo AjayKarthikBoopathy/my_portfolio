@@ -29,6 +29,7 @@ function ProjectDisplay() {
 
             <div>
             <div className="mailpass">
+            <p><span className="keys">Username:-</span>Ajay</p>
             <p><span className="keys">Email:-</span>ajay@gmail.com</p>
             <p><span className="keys">Password:-</span>Password@123</p>
             </div>

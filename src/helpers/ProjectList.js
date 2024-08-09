@@ -4,6 +4,7 @@ import Proj3 from "../assets/proj3.png";
 import Proj4 from "../assets/proj4.png";
 import Proj5 from "../assets/proj5.png";
 import Proj6 from "../assets/proj6.png";
+import Proj7 from "../assets/proj7.png";
 
 export const ProjectList = [
   
@@ -14,6 +15,14 @@ export const ProjectList = [
     live: "https://youtube-application123.netlify.app",
     front: "https://github.com/AjayKarthikBoopathy/youtube-client-master",
     back: "https://github.com/AjayKarthikBoopathy/youtube-backend"
+  },
+  {
+    name: "Chat Application",
+    image: Proj7,
+    skills: "React,Node.js,MongoDB",
+    live: "https://livechat-application123.netlify.app/",
+    front: "https://github.com/AjayKarthikBoopathy/live-chat-client",
+    back: "https://github.com/AjayKarthikBoopathy/live-chat-server"
   },
   {
     name: "Task Management",
@@ -46,17 +55,17 @@ export const ProjectList = [
     live: "https://student-mentor-portal123.netlify.app/",
     front: "https://github.com/AjayKarthikBoopathy/stud-ment-frontend",
     back: "https://github.com/AjayKarthikBoopathy/stud-ment-backend"   
-  },
-  {
-    name: "CRUD with Redux-Toolkit",
-    image: Proj5,
-    skills: "React,Redux",
-    live: "https://calm-parfait-bee312.netlify.app/",
-    front: "https://github.com/AjayKarthikBoopathy/react-redux-crud"   
   }
+
+
+  // {
+  //   name: "CRUD with Redux-Toolkit",
+  //   image: Proj5,
+  //   skills: "React,Redux",
+  //   live: "https://calm-parfait-bee312.netlify.app/",
+  //   front: "https://github.com/AjayKarthikBoopathy/react-redux-crud"   
+  // }
   
-
-
   // {
   //   name: "CRUD with MUI",
   //   image: Proj6,
