@@ -28,7 +28,7 @@ function Footer() {
             <LinkedInIcon />
             </Link>
             
-            <Link href="https://github.com/AjayKarthikBoopathy?tab=repositories" target="_blank" rel="noreferrer">
+            <Link href="https://github.com/AjayKarthikBoopathy/" target="_blank" rel="noreferrer">
             <GithubIcon />
             </Link>
 
